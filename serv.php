@@ -10,6 +10,10 @@
   }
 
   function fibonacci($n) {
+    
+    if ( $n < 0 ) {
+      return 0;
+    }
   
     $total     = 0;
     $prev_prev = 0;
